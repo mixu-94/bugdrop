@@ -31,6 +31,7 @@
     "build": "tsc",
     "build:widget": "node scripts/build-widget.js",
     "deploy": "wrangler deploy",
+    "deploy:mixu": "wrangler deploy --config wrangler.mixu.toml",
     "render:board-gallery": "node scripts/render-board-gallery.mjs",
     "social-proof:consent": "node scripts/social-proof-consent.mjs",
     "verify:legacy-compat": "node scripts/verify-legacy-compat.mjs",

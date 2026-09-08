@@ -1,0 +1,28 @@
+name = "mixu-client-feedback"
+account_id = "7018b27d83888375554e2106e2bffae6"
+main = "src/index.ts"
+compatibility_date = "2024-01-29"
+workers_dev = false
+
+[[routes]]
+pattern = "feedback.michael-schindler.dev"
+custom_domain = true
+
+[assets]
+directory = "public"
+binding = "ASSETS"
+
+[vars]
+ENVIRONMENT = "production"
+# Keep this list exact. Add a preview origin only when its project is deployed.
+ALLOWED_ORIGINS = "https://michael-schindler.dev"
+GITHUB_APP_NAME = "mixu-client-feedback"
+MAX_SCREENSHOT_SIZE_MB = "5"
+CATEGORY_LABELS = '{"bug":["feedback","fehler"],"feature":["feedback","aenderungswunsch"],"question":["feedback","frage"]}'
+ROOT_REDIRECT_URL = "https://michael-schindler.dev"
+AUTH_TOKEN_AUDIENCE = "feedback.michael-schindler.dev"
+AUTH_TOKEN_REQUIRED_FOR_CHECK = "true"
+
+# RATE_LIMIT is added after the dedicated Cloudflare KV namespace exists.
+# GitHub App credentials and AUTH_TOKEN_SECRET are Worker secrets and never
+# belong in this file.
