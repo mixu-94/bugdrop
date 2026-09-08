@@ -5,7 +5,7 @@
 - **GitHub:** Private GitHub App `mixu-client-feedback`; repository access is granted per customer project.
 - **Secrets:** Bitwarden Secrets Manager references only:
   - `integrations/github/mixu-client-feedback/auth-token-secret` (created)
-  - `integrations/cloudflare/mixu-feedback-worker/token` (pending approval)
+  - `integrations/cloudflare/mixu-feedback-worker/token` (created)
   - `integrations/github/mixu-client-feedback/app-id` (pending GitHub App registration)
   - `integrations/github/mixu-client-feedback/private-key` (pending GitHub App registration)
 - **Client integration:** Enable the widget only in preview deployments. Each host app mints a short-lived BugDrop token after validating its Cloudflare Access session.

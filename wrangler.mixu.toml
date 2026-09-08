@@ -23,6 +23,9 @@ ROOT_REDIRECT_URL = "https://michael-schindler.dev"
 AUTH_TOKEN_AUDIENCE = "feedback.michael-schindler.dev"
 AUTH_TOKEN_REQUIRED_FOR_CHECK = "true"
 
-# RATE_LIMIT is added after the dedicated Cloudflare KV namespace exists.
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "162a0760372d446a808a96db84922391"
+
 # GitHub App credentials and AUTH_TOKEN_SECRET are Worker secrets and never
 # belong in this file.
