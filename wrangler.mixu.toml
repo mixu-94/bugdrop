@@ -15,7 +15,7 @@ binding = "ASSETS"
 [vars]
 ENVIRONMENT = "production"
 # Keep this list exact. Add a preview origin only when its project is deployed.
-ALLOWED_ORIGINS = "https://michael-schindler.dev"
+ALLOWED_ORIGINS = "https://michael-schindler.dev,https://immovend-preview.michael-schindler.dev"
 GITHUB_APP_NAME = "mixu-client-feedback"
 MAX_SCREENSHOT_SIZE_MB = "5"
 CATEGORY_LABELS = '{"bug":["feedback","fehler"],"feature":["feedback","aenderungswunsch"],"question":["feedback","frage"]}'
