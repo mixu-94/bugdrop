@@ -16,11 +16,12 @@ export const de: WidgetStrings = {
     'Die BugDrop-API ist nicht erreichbar. Überprüfen Sie Ihre Netzwerkverbindung oder die URL des Script-Tags.',
   installApp: 'App installieren',
   // Welcome screen
-  welcomeTitle: 'Teilen Sie Ihr Feedback',
-  welcomeHeadline: 'Helfen Sie uns, besser zu werden, indem Sie Ihre Meinung teilen',
+  welcomeTitle: 'Feedback zur Seite senden',
+  welcomeHeadline: 'Teilen Sie Ihre Änderungswünsche direkt mit uns',
   welcomeBodyLine1:
-    'Melden Sie Fehler, schlagen Sie Funktionen vor oder hinterlassen Sie Feedback.',
-  welcomeBodyLine2: 'Sie können optional kommentierte Screenshots hinzufügen.',
+    'Markieren Sie Stellen auf der Seite, melden Sie Fehler oder beschreiben Sie gewünschte Anpassungen.',
+  welcomeBodyLine2:
+    'Optional können Sie kommentierte Screenshots hinzufügen, damit wir schneller reagieren können.',
   getStarted: 'Los geht’s',
   // Feedback form
   feedbackFormTitle: 'Feedback senden',

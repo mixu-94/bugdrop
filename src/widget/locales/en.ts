@@ -15,10 +15,11 @@ export const en: WidgetStrings = {
     'Unable to reach BugDrop API. Check your network connection or script tag URL.',
   installApp: 'Install App',
   // Welcome screen
-  welcomeTitle: 'Share Your Feedback',
-  welcomeHeadline: 'Help us improve by sharing your thoughts',
-  welcomeBodyLine1: 'Report bugs, suggest features, or leave feedback.',
-  welcomeBodyLine2: 'You can optionally include annotated screenshots.',
+  welcomeTitle: 'Send page feedback',
+  welcomeHeadline: 'Share your change requests directly with us',
+  welcomeBodyLine1:
+    'Mark areas on the page, report issues, or describe the changes you would like to see.',
+  welcomeBodyLine2: 'You can optionally include annotated screenshots so we can respond faster.',
   getStarted: 'Get Started',
   // Feedback form
   feedbackFormTitle: 'Send Feedback',
